@@ -21,6 +21,7 @@ class role::master {
   # Custom PE Console configuration
   include git
   include apache
+  include puppet_vim_env
 
   # Puppet master firewall rules
   include profile::firewall
